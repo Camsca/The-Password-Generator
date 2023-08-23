@@ -23,3 +23,14 @@ if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
 alert("Invalid password length. Please enter a value between 8 and 128.");
 return;
 }
+//Askes the user ?? to confirm to selct at least one character
+var includeLowercase=confirm("includeLowercase?");
+var includeUppercase= confirm ('Inlude uppercase characters?');
+var includeNumeric = confirm("Include numeric characters?");
+var includeSpecial= confirm("Include splecia characters?");
+ //if none above are selcted they desplay the message and returns
+if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecial){
+  alert("You must select at least one Character type");
+  return;
+}
+
