@@ -34,3 +34,13 @@ if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecial
   return;
 }
 
+var charset = "";
+if (includeLowercase) charset += "abcdefghijklmnopqrstuvwxyz";
+if (includeUppercase) charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+if (includeNumeric) charset += "0123456789";
+if (includeSpecial) charset += "!@#$%^&*()";
+var password = generateRandomPassword(passwordLength, charset);  
+var passwordText = document.querySelector("#password");
+passwordText.value = password;
+}
+//generate funtion  is called and based on the user characters preference 
