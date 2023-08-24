@@ -1,19 +1,18 @@
-# Password Generator
+# Password Generator JavaScript
 
-This is a simple password generator built using HTML, CSS, and JavaScript. It enables users to generate random passwords based on their preferences for password length and character types.
+This repository contains JavaScript code for a simple password generator. The code generates random passwords based on user preferences for password length and character types.
 
-## Getting Started
+## How It Works
 
-Follow these steps to set up and run the password generator in Visual Studio Code.
+The `The-Password-Generator` file contains the JavaScript code responsible for the password generation process. Here's how it works:
 
-### Prerequisites
+1. Users click the "Generate Password" button on the web page.
+2. Users are prompted to enter a desired password length (between 8 and 128 characters).
+3. Users confirm which character types they want in the password (lowercase, uppercase, numeric, special characters).
+4. The code constructs a character set based on user preferences.
+5. Random characters are selected from the character set to build the final password.
+6. The generated password is displayed on the web page.
 
-Make sure you have the following software installed:
+## Credits
 
-- [Visual Studio Code](https://code.visualstudio.com/download)
-- A web browser (e.g., Chrome, Firefox)
-
-### Installation
-
-1. Clone or download this repository to your local machine.
-
+Starer code by [Xander Rapstine](https://github.com/Xandromus)  The starter code can be found in their [friendly-parakeet](https://github.com/coding-boot-camp/friendly-parakeet) repository.
