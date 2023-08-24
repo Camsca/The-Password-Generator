@@ -1,0 +1,19 @@
+# Password Generator
+
+This is a simple password generator built using HTML, CSS, and JavaScript. It enables users to generate random passwords based on their preferences for password length and character types.
+
+## Getting Started
+
+Follow these steps to set up and run the password generator in Visual Studio Code.
+
+### Prerequisites
+
+Make sure you have the following software installed:
+
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- A web browser (e.g., Chrome, Firefox)
+
+### Installation
+
+1. Clone or download this repository to your local machine.
+
