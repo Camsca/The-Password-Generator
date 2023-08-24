@@ -1,4 +1,4 @@
-# Password Generator JavaScript
+# The Password Generator JavaScript
 
 This repository contains JavaScript code for a simple password generator. The code generates random passwords based on user preferences for password length and character types.
 
@@ -11,7 +11,11 @@ The `The-Password-Generator` file contains the JavaScript code responsible for t
 3. Users confirm which character types they want in the password (lowercase, uppercase, numeric, special characters).
 4. The code constructs a character set based on user preferences.
 5. Random characters are selected from the character set to build the final password.
-6. The generated password is displayed on the web page.
+6. The generated password is displayed on the web page
+![Screenshot The-password-generator](![Screenshot](direct-image-url)
+)
+https://camsca.github.io/The-Password-Generator/
+https://github.com/Camsca/The-Password-Generator
 
 ## Credits
 
